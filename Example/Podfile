@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'AwesomeTooltip_Example' do
+  pod 'AwesomeTooltip', :path => '../'
+
+  target 'AwesomeTooltip_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
