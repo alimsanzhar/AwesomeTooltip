@@ -1,15 +1,16 @@
 # AwesomeTooltip
 
-[![CI Status](https://img.shields.io/travis/SanzharAlim/AwesomeTooltip.svg?style=flat)](https://travis-ci.org/SanzharAlim/AwesomeTooltip)
-[![Version](https://img.shields.io/cocoapods/v/AwesomeTooltip.svg?style=flat)](https://cocoapods.org/pods/AwesomeTooltip)
-[![License](https://img.shields.io/cocoapods/l/AwesomeTooltip.svg?style=flat)](https://cocoapods.org/pods/AwesomeTooltip)
-[![Platform](https://img.shields.io/cocoapods/p/AwesomeTooltip.svg?style=flat)](https://cocoapods.org/pods/AwesomeTooltip)
+[![Swift 4.0](https://img.shields.io/badge/swift-4.0-orange)](#)
+[![@alimsanzhar](https://img.shields.io/badge/contact-%40alimsanzhar-green)](https://t.me/alimsanzhar)
 
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+- iOS 10.0+
+- Xcode 11+
+- Swift 4+
 
 ## Installation
 
@@ -23,7 +24,3 @@ pod 'AwesomeTooltip'
 ## Author
 
 Sanzhar Alim, sanzhar.alim19@gmail.com
-
-## License
-
-AwesomeTooltip is available under the MIT license. See the LICENSE file for more info.
