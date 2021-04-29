@@ -1,0 +1,6 @@
+framework module AwesomeTooltip {
+  umbrella header "AwesomeTooltip-umbrella.h"
+
+  export *
+  module * { export * }
+}

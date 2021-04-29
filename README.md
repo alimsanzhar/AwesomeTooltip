@@ -1,6 +1,6 @@
 # AwesomeTooltip
 
-[![CI Status](https://img.shields.io/travis/Санжар Алим/AwesomeTooltip.svg?style=flat)](https://travis-ci.org/Санжар Алим/AwesomeTooltip)
+[![CI Status](https://img.shields.io/travis/SanzharAlim/AwesomeTooltip.svg?style=flat)](https://travis-ci.org/SanzharAlim/AwesomeTooltip)
 [![Version](https://img.shields.io/cocoapods/v/AwesomeTooltip.svg?style=flat)](https://cocoapods.org/pods/AwesomeTooltip)
 [![License](https://img.shields.io/cocoapods/l/AwesomeTooltip.svg?style=flat)](https://cocoapods.org/pods/AwesomeTooltip)
 [![Platform](https://img.shields.io/cocoapods/p/AwesomeTooltip.svg?style=flat)](https://cocoapods.org/pods/AwesomeTooltip)
@@ -22,7 +22,7 @@ pod 'AwesomeTooltip'
 
 ## Author
 
-Санжар Алим, alim@kolesa.kz
+Sanzhar Alim, sanzhar.alim19@gmail.com
 
 ## License
 

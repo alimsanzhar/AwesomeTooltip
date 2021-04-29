@@ -1,0 +1,22 @@
+{
+  "name": "AwesomeTooltip",
+  "version": "0.1.0",
+  "summary": "A short description of AwesomeTooltip.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Санжар Алим/AwesomeTooltip",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Санжар Алим": "alim@kolesa.kz"
+  },
+  "source": {
+    "git": "https://github.com/Санжар Алим/AwesomeTooltip.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "AwesomeTooltip/Classes/**/*"
+}

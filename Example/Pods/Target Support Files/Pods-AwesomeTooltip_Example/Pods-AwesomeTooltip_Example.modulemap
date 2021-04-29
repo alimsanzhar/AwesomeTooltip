@@ -1,0 +1,6 @@
+framework module Pods_AwesomeTooltip_Example {
+  umbrella header "Pods-AwesomeTooltip_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

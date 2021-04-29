@@ -1,0 +1,16 @@
+PODS:
+  - AwesomeTooltip (0.1.0)
+
+DEPENDENCIES:
+  - AwesomeTooltip (from `../`)
+
+EXTERNAL SOURCES:
+  AwesomeTooltip:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AwesomeTooltip: aa22236e3c756e7661b40c2b170d0811af355f0a
+
+PODFILE CHECKSUM: c7e5b1c24b6eaee1a620f766f68cbd6423acd273
+
+COCOAPODS: 1.10.1
