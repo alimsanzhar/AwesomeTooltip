@@ -12,8 +12,8 @@
 		87E1F5A9F87F57F92FEC60C2E7980FEA /* Pods-AwesomeTooltip_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB3F663468A8840FA36379D374DD877 /* Pods-AwesomeTooltip_Tests-dummy.m */; };
 		9166B206F78A4B69314D21E795EB00E2 /* Pods-AwesomeTooltip_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ABF61C04FB78059B48E2352D9CD2C22 /* Pods-AwesomeTooltip_Example-dummy.m */; };
 		9D8807E6C9BB0E5CFC72CC96337E5D58 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		AE28EF18263AEF7300856A76 /* TooltipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE28EF17263AEF7300856A76 /* TooltipViewController.swift */; };
-		AE28EF20263B020800856A76 /* TooltipViewing.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE28EF1F263B020800856A76 /* TooltipViewing.swift */; };
+		AE28EF34263BF77B00856A76 /* TooltipViewing.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE28EF32263BF77B00856A76 /* TooltipViewing.swift */; };
+		AE28EF35263BF77B00856A76 /* TooltipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE28EF33263BF77B00856A76 /* TooltipViewController.swift */; };
 		BDB76D177443823B1D545628B8C125A6 /* Pods-AwesomeTooltip_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AE29099CD89AF43F0EC62DCED946F37 /* Pods-AwesomeTooltip_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C93B205303F1B341CB68F17C04805802 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		E9EDB2143CCA7344C994B3D589C35EB6 /* Pods-AwesomeTooltip_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CE80290D427C0C8B9BA8AEEFA2C4D1E /* Pods-AwesomeTooltip_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -58,8 +58,8 @@
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A07A9F594DB954C41BDCF4675C057A66 /* Pods-AwesomeTooltip_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AwesomeTooltip_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A36A5456D967859F1F067729FA725EA1 /* AwesomeTooltip-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AwesomeTooltip-Info.plist"; sourceTree = "<group>"; };
-		AE28EF17263AEF7300856A76 /* TooltipViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TooltipViewController.swift; sourceTree = "<group>"; };
-		AE28EF1F263B020800856A76 /* TooltipViewing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TooltipViewing.swift; sourceTree = "<group>"; };
+		AE28EF32263BF77B00856A76 /* TooltipViewing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TooltipViewing.swift; path = AwesomeTooltip/Classes/TooltipViewing.swift; sourceTree = "<group>"; };
+		AE28EF33263BF77B00856A76 /* TooltipViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TooltipViewController.swift; path = AwesomeTooltip/Classes/TooltipViewController.swift; sourceTree = "<group>"; };
 		B1C3A90A2600174E6539F2CB992DE75F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		B92E37979CD391A48EEE88BE20F1F73F /* Pods-AwesomeTooltip_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AwesomeTooltip_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C1DF18ED62A3BD8D6B1DC262EDB9E88A /* AwesomeTooltip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AwesomeTooltip.debug.xcconfig; sourceTree = "<group>"; };
@@ -105,8 +105,8 @@
 		142E14D4D018CE83159476D898AED608 /* AwesomeTooltip */ = {
 			isa = PBXGroup;
 			children = (
-				AE28EF17263AEF7300856A76 /* TooltipViewController.swift */,
-				AE28EF1F263B020800856A76 /* TooltipViewing.swift */,
+				AE28EF33263BF77B00856A76 /* TooltipViewController.swift */,
+				AE28EF32263BF77B00856A76 /* TooltipViewing.swift */,
 				7E8719673AC48C3321E22D6007A4ACCF /* Pod */,
 				FEEE037E85A0840DFEE6524491434F8C /* Support Files */,
 			);
@@ -391,9 +391,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE28EF20263B020800856A76 /* TooltipViewing.swift in Sources */,
-				AE28EF18263AEF7300856A76 /* TooltipViewController.swift in Sources */,
 				EAC30AB2C55558DE7FF8011994829730 /* AwesomeTooltip-dummy.m in Sources */,
+				AE28EF34263BF77B00856A76 /* TooltipViewing.swift in Sources */,
+				AE28EF35263BF77B00856A76 /* TooltipViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
