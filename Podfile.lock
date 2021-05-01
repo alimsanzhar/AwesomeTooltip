@@ -1,0 +1,16 @@
+PODS:
+  - AMPopTip (3.3.0)
+
+DEPENDENCIES:
+  - AMPopTip (~> 3.3.0)
+
+SPEC REPOS:
+  trunk:
+    - AMPopTip
+
+SPEC CHECKSUMS:
+  AMPopTip: 45f3f87362d76abe59b971d35e33eff4e56ac2ad
+
+PODFILE CHECKSUM: 0dd69d5b96e273b820865b7bae2c95c6fd4037aa
+
+COCOAPODS: 1.10.1

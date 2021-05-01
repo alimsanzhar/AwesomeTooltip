@@ -9,8 +9,6 @@ import UIKit
 
 final class TooltipBackgroundView: UIView {
     
-    var backgroundViewInset: CGFloat = 40
-    
     private let view: UIView
     private let configuration: TooltipHighlighting
     
@@ -33,17 +31,17 @@ final class TooltipBackgroundView: UIView {
     
     private func setupBackground() {
         backgroundColor = configuration.backgroundColor
+        isHidden = !configuration.showRoundedBackground
         
         if configuration.showRoundedBackground {
-            let height = max(view.frame.height, view.frame.width) + backgroundViewInset
+            let height = max(view.frame.height, view.frame.width) + configuration.backgroundViewInset
             let widthInset = (height - view.frame.width) / 2
+            layer.cornerRadius = height / 2
             
             frame = CGRect(x: view.frame.origin.x - widthInset,
-                           y: view.frame.origin.y - backgroundViewInset / 2,
+                           y: view.frame.origin.y - configuration.backgroundViewInset / 2,
                            width: height,
                            height: height)
-            
-            addSubview(view)
         } else {
             frame = view.frame
         }
