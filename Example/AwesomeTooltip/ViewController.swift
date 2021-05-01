@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-//        let viewController = TooltipViewController(
+//        let viewController = TooltipViewController()
     }
 }
 
