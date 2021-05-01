@@ -1,16 +1,24 @@
 PODS:
-  - AwesomeTooltip (0.1.0)
+  - AMPopTip (3.3.0)
+  - AwesomeTooltip (0.1.0):
+    - AMPopTip (~> 3.3.0)
 
 DEPENDENCIES:
+  - AMPopTip (~> 3.3.0)
   - AwesomeTooltip (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - AMPopTip
 
 EXTERNAL SOURCES:
   AwesomeTooltip:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AwesomeTooltip: aa22236e3c756e7661b40c2b170d0811af355f0a
+  AMPopTip: 45f3f87362d76abe59b971d35e33eff4e56ac2ad
+  AwesomeTooltip: 63fdf61c864b8833caaa9bcd2bf46b6d0ffcdc5a
 
-PODFILE CHECKSUM: c7e5b1c24b6eaee1a620f766f68cbd6423acd273
+PODFILE CHECKSUM: cc868017b8b65e779a6019defc8a2f03d28fe6f6
 
 COCOAPODS: 1.10.1

@@ -3,20 +3,25 @@
   "version": "0.1.0",
   "summary": "A short description of AwesomeTooltip.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/Санжар Алим/AwesomeTooltip",
+  "homepage": "https://github.com/alimsanzhar/AwesomeTooltip",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "Санжар Алим": "alim@kolesa.kz"
+    "Sanzhar Alim": "sanzhar.alim19@gmail.com"
   },
   "source": {
-    "git": "https://github.com/Санжар Алим/AwesomeTooltip.git",
+    "git": "https://github.com/alimsanzhar/AwesomeTooltip.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "9.0"
+    "ios": "10.0"
   },
-  "source_files": "AwesomeTooltip/Classes/**/*"
+  "source_files": "AwesomeTooltip/Classes/**/*",
+  "dependencies": {
+    "AMPopTip": [
+      "~> 3.3.0"
+    ]
+  }
 }

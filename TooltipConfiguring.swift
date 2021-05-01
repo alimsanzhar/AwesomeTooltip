@@ -1,0 +1,14 @@
+//
+//  TooltipConfiguring.swift
+//  AwesomeTooltip
+//
+//  Created by Санжар Алим on 01.05.2021.
+//
+
+import Foundation
+
+protocol TooltipConfiguring {
+    var customView: UIView { get }
+    var highlightingViewModel: TooltipHighlighting { get }
+    var indicatingViewModel: TooltipIndicating { get }
+}
