@@ -7,60 +7,60 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09E64F40239C57C402C6FDB9CB75CD20 /* UIView+Snapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AD3E3DD7B0C33A9C6205A80C7A549D /* UIView+Snapshot.swift */; };
+		12AD4FE655409E290A56A9F9E3A0BE0F /* Tooltip.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C281A29D60DB42B97CE75B206063DB /* Tooltip.swift */; };
+		19E56166BFB33B032ACDF5192B192605 /* AwesomeTooltip-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5250D4470FFF1A34BC9960C798F38822 /* AwesomeTooltip-dummy.m */; };
 		1B80617BF1AA01E1388B24280EB04DDD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08DCECB841B79907B335AFC9C8E1992C /* Foundation.framework */; };
-		2266BAF2BE84941AEF10DFEC1D5E281C /* AwesomeTooltip-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AE936F823D46C4F58E8F2AB070E2EE79 /* AwesomeTooltip-dummy.m */; };
+		2381B1589CFDFA93D9D455F0CDDA90CD /* TooltipIndicating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5A6A01FFC08AC7507E34D49EA05D70 /* TooltipIndicating.swift */; };
 		32E11C68B7E380DAF57756919DFC2BB0 /* PopTip+Transitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2E1C78AFB7345CEE36E5B31CDB8D1F /* PopTip+Transitions.swift */; };
+		3ACAEF261FF69AE04C7F663247920DD4 /* TooltipBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BBC30BEEDE7F63D524ADAD24D0406B /* TooltipBackgroundView.swift */; };
+		3C54CDE39B59FFD7FBB529FDE8D2BC91 /* TooltipHighlighting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46163C94003DB181CAB5B16D7E4AC915 /* TooltipHighlighting.swift */; };
+		52F92A2EFD592BDFC4D227B9ABD16EB9 /* TooltipHitTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E65657109439B4D29A27EFC6587D70 /* TooltipHitTestView.swift */; };
 		5559AADA8CD57A33CCB6516B670FEA8A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08DCECB841B79907B335AFC9C8E1992C /* Foundation.framework */; };
 		5CE944B24E92F75283808185B053CA33 /* PopTip+Draw.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34A67707400407EB4CDB4AF6CB5D203 /* PopTip+Draw.swift */; };
+		61EF9B945C708C793FE9B3B0F27D9D13 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08DCECB841B79907B335AFC9C8E1992C /* Foundation.framework */; };
 		6B711829635DE0124AAD400294679DA4 /* AMPopTip-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CA2639884B88B9DC5AC2BD0063403D99 /* AMPopTip-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		85D5C597E5A1C66586CE08A4BFC7F885 /* PopTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1B4AA83D16FE582FB75421EB32AA9B /* PopTip.swift */; };
 		87E1F5A9F87F57F92FEC60C2E7980FEA /* Pods-AwesomeTooltip_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB3F663468A8840FA36379D374DD877 /* Pods-AwesomeTooltip_Tests-dummy.m */; };
 		89FFA14EF13E4C6E4099F9D363AC1009 /* Pods-AwesomeTooltip_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AE29099CD89AF43F0EC62DCED946F37 /* Pods-AwesomeTooltip_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		934C89D06445DC95EB9EB334ACC176A9 /* AMPopTip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB4D8D1CBC9633F5DA4415E4E18B8C1C /* AMPopTip.framework */; };
 		9988F07712C399B5ABC0499E0EA440F7 /* Pods-AwesomeTooltip_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ABF61C04FB78059B48E2352D9CD2C22 /* Pods-AwesomeTooltip_Example-dummy.m */; };
-		AA0ADFD30923211EDA253119E1FBA7B4 /* TooltipHighlighting.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF6F5725789CF049F1C77CB665599A6 /* TooltipHighlighting.swift */; };
-		AE28EFEA263D7A5B00856A76 /* TooltipHitTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE28EFE4263D7A5B00856A76 /* TooltipHitTestView.swift */; };
-		AE28EFEB263D7A5B00856A76 /* TooltipBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE28EFE5263D7A5B00856A76 /* TooltipBackgroundView.swift */; };
-		AE28EFEC263D7A5B00856A76 /* Tooltip.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE28EFE6263D7A5B00856A76 /* Tooltip.swift */; };
-		AE28EFED263D7A5B00856A76 /* UIView+Snapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE28EFE7263D7A5B00856A76 /* UIView+Snapshot.swift */; };
-		AE28EFF8263D7AE900856A76 /* TooltipIndicating.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE28EFF6263D7AE900856A76 /* TooltipIndicating.swift */; };
-		AE28EFF9263D7AE900856A76 /* TooltipConfiguring.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE28EFF7263D7AE900856A76 /* TooltipConfiguring.swift */; };
-		B979B312647B7300089F875CF4F972D9 /* AMPopTip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB4D8D1CBC9633F5DA4415E4E18B8C1C /* AMPopTip.framework */; };
-		C912E46811AC98F1A4A753A8AF532CB6 /* AwesomeTooltip-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EFF023073635E65E19A0824CAACFAAB /* AwesomeTooltip-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A29ABDD59B76AC2D3901A8B55A3A8156 /* AwesomeTooltip-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C69E24CB1A7F9F7D071370A791BE448 /* AwesomeTooltip-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4426DA3541317406F0B7CD8DB28076A /* TooltipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D48B7EA5E620C8CEE887CE8D5347DC /* TooltipViewController.swift */; };
 		C93B205303F1B341CB68F17C04805802 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08DCECB841B79907B335AFC9C8E1992C /* Foundation.framework */; };
-		D1B12804C675BD9B27AA0C8137252ADC /* TooltipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3ED382826E8D9B98375780945B5B69 /* TooltipViewController.swift */; };
+		E51218C4F8988A5EDEBA3CEE8C6524EC /* TooltipConfiguring.swift in Sources */ = {isa = PBXBuildFile; fileRef = C532513FCD7363AE3771ED9506E5D194 /* TooltipConfiguring.swift */; };
 		E68FCDC3550B6EE493A15BE22237576D /* AMPopTip-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F1ACF272F403AE1D2B58369C1D4DB8B7 /* AMPopTip-dummy.m */; };
 		E9EDB2143CCA7344C994B3D589C35EB6 /* Pods-AwesomeTooltip_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CE80290D427C0C8B9BA8AEEFA2C4D1E /* Pods-AwesomeTooltip_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F9A4834F21CECBE5A7776F95653DE9B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08DCECB841B79907B335AFC9C8E1992C /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1AECF589300001334E664700751DB895 /* PBXContainerItemProxy */ = {
+		66D147BACACB8362E9014D8A90CC69BB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 0B974B55B3C5F71E53DF6070DC0CF6CF;
 			remoteInfo = AMPopTip;
 		};
-		2FE9558729BAA64EA1E8B4F08B758EBD /* PBXContainerItemProxy */ = {
+		A9C8E06743944D5556826B173875D4A9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 0B974B55B3C5F71E53DF6070DC0CF6CF;
 			remoteInfo = AMPopTip;
 		};
-		A70187DA181CF3CCDD14F4FBBCE40CD2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8E51235495C27780DE1D02E9F9C6CEC8;
-			remoteInfo = "Pods-AwesomeTooltip_Example";
-		};
-		AFE4A26A78D289C3B40154508BE5B816 /* PBXContainerItemProxy */ = {
+		CC318A6FBBAC413E8983826479E9ECE0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = FD56E1D86998F7DEC850436BEFCD3B5F;
 			remoteInfo = AwesomeTooltip;
+		};
+		F748D4ABA00B67EA4B4D5F90CE7EF6A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E51235495C27780DE1D02E9F9C6CEC8;
+			remoteInfo = "Pods-AwesomeTooltip_Example";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -69,54 +69,54 @@
 		08DCECB841B79907B335AFC9C8E1992C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		147FD80B7EDB120CCF41D8FFFFA74252 /* AMPopTip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AMPopTip.debug.xcconfig; sourceTree = "<group>"; };
 		15B1FA8B58DE54DCF20203FDD13C7F24 /* Pods-AwesomeTooltip_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AwesomeTooltip_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		17E17BF427EF654BDE88465C39385BA9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		2A1B4AA83D16FE582FB75421EB32AA9B /* PopTip.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopTip.swift; path = Source/PopTip.swift; sourceTree = "<group>"; };
 		2ABF61C04FB78059B48E2352D9CD2C22 /* Pods-AwesomeTooltip_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AwesomeTooltip_Example-dummy.m"; sourceTree = "<group>"; };
 		2AE29099CD89AF43F0EC62DCED946F37 /* Pods-AwesomeTooltip_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AwesomeTooltip_Example-umbrella.h"; sourceTree = "<group>"; };
+		2C5A6A01FFC08AC7507E34D49EA05D70 /* TooltipIndicating.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TooltipIndicating.swift; path = AwesomeTooltip/Classes/TooltipIndicating.swift; sourceTree = "<group>"; };
+		2C69E24CB1A7F9F7D071370A791BE448 /* AwesomeTooltip-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AwesomeTooltip-umbrella.h"; sourceTree = "<group>"; };
+		30AD3E3DD7B0C33A9C6205A80C7A549D /* UIView+Snapshot.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIView+Snapshot.swift"; sourceTree = "<group>"; };
 		3282C211596FCD4672AAC0F698641DF2 /* Pods-AwesomeTooltip_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AwesomeTooltip_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		3310A38317C13325A9D799E6548E9E0A /* AwesomeTooltip.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AwesomeTooltip.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		33BBC30BEEDE7F63D524ADAD24D0406B /* TooltipBackgroundView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TooltipBackgroundView.swift; sourceTree = "<group>"; };
 		34FCBED32B6C05FB0667828AB6E82BD5 /* Pods-AwesomeTooltip_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AwesomeTooltip_Example-Info.plist"; sourceTree = "<group>"; };
 		3BC68DF588D91CA7419B9A8FCF2845C8 /* Pods-AwesomeTooltip_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AwesomeTooltip_Tests-Info.plist"; sourceTree = "<group>"; };
-		4EFF023073635E65E19A0824CAACFAAB /* AwesomeTooltip-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AwesomeTooltip-umbrella.h"; sourceTree = "<group>"; };
+		46163C94003DB181CAB5B16D7E4AC915 /* TooltipHighlighting.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TooltipHighlighting.swift; path = AwesomeTooltip/Classes/TooltipHighlighting.swift; sourceTree = "<group>"; };
+		4847B328E4886A051D3921F38BC0F226 /* AwesomeTooltip.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AwesomeTooltip.modulemap; sourceTree = "<group>"; };
 		4F0B759B660089F4E9D1BFF6792D9955 /* Pods-AwesomeTooltip_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AwesomeTooltip_Example-frameworks.sh"; sourceTree = "<group>"; };
 		50061733429F73E359D5E030DC2861FA /* Pods-AwesomeTooltip_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AwesomeTooltip_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		5250D4470FFF1A34BC9960C798F38822 /* AwesomeTooltip-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AwesomeTooltip-dummy.m"; sourceTree = "<group>"; };
+		561BD3E1F4621DF0816EF114E7ADDE72 /* AwesomeTooltip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AwesomeTooltip.release.xcconfig; sourceTree = "<group>"; };
+		5A33D95633D739248379EDDF0EFBA8D6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		5B66BCD0A5F12EE51B352032C7A17106 /* AwesomeTooltip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AwesomeTooltip.debug.xcconfig; sourceTree = "<group>"; };
 		60F65B9342658D9D5E08C8A3D7FBB6D8 /* Pods-AwesomeTooltip_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AwesomeTooltip_Example.modulemap"; sourceTree = "<group>"; };
 		64CFDA21329FEEA6035C650EA931EE18 /* AMPopTip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AMPopTip.release.xcconfig; sourceTree = "<group>"; };
-		740EB0ACE107C456C7AF960AD6E57C20 /* AwesomeTooltip-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AwesomeTooltip-Info.plist"; sourceTree = "<group>"; };
-		74103EF3C56ECE1CAAA5194B3760534D /* AwesomeTooltip.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = AwesomeTooltip.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		7AC7471722D37629B99AC6EDD8697667 /* AwesomeTooltip-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AwesomeTooltip-prefix.pch"; sourceTree = "<group>"; };
-		7D075EB9B4C3445B62320AB83CACC5BA /* AwesomeTooltip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AwesomeTooltip.debug.xcconfig; sourceTree = "<group>"; };
+		64D48B7EA5E620C8CEE887CE8D5347DC /* TooltipViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TooltipViewController.swift; path = AwesomeTooltip/Classes/TooltipViewController.swift; sourceTree = "<group>"; };
 		7E6382AA123E94E98E8937A5C14D5239 /* AMPopTip-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AMPopTip-Info.plist"; sourceTree = "<group>"; };
-		7FFB1C2AEE6096ABCF821C846D06F817 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		88E85C0ED802C85063724A5BE2FC5FDF /* Pods_AwesomeTooltip_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AwesomeTooltip_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8C95D72193B8B0961AE8D60FA1D3F419 /* AMPopTip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AMPopTip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88E85C0ED802C85063724A5BE2FC5FDF /* Pods_AwesomeTooltip_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AwesomeTooltip_Example.framework; path = "Pods-AwesomeTooltip_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C95D72193B8B0961AE8D60FA1D3F419 /* AMPopTip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AMPopTip.framework; path = AMPopTip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D30BDCF9AC3B9E4193D2AF0969020D0 /* AMPopTip-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMPopTip-prefix.pch"; sourceTree = "<group>"; };
-		978278326EF6ECEB0A96796F8CB7F086 /* AwesomeTooltip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AwesomeTooltip.release.xcconfig; sourceTree = "<group>"; };
 		9CE80290D427C0C8B9BA8AEEFA2C4D1E /* Pods-AwesomeTooltip_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AwesomeTooltip_Tests-umbrella.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A07A9F594DB954C41BDCF4675C057A66 /* Pods-AwesomeTooltip_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AwesomeTooltip_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		AE28EFE4263D7A5B00856A76 /* TooltipHitTestView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TooltipHitTestView.swift; sourceTree = "<group>"; };
-		AE28EFE5263D7A5B00856A76 /* TooltipBackgroundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TooltipBackgroundView.swift; sourceTree = "<group>"; };
-		AE28EFE6263D7A5B00856A76 /* Tooltip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tooltip.swift; sourceTree = "<group>"; };
-		AE28EFE7263D7A5B00856A76 /* UIView+Snapshot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Snapshot.swift"; sourceTree = "<group>"; };
-		AE28EFF6263D7AE900856A76 /* TooltipIndicating.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TooltipIndicating.swift; path = AwesomeTooltip/Classes/TooltipIndicating.swift; sourceTree = "<group>"; };
-		AE28EFF7263D7AE900856A76 /* TooltipConfiguring.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TooltipConfiguring.swift; path = AwesomeTooltip/Classes/TooltipConfiguring.swift; sourceTree = "<group>"; };
-		AE936F823D46C4F58E8F2AB070E2EE79 /* AwesomeTooltip-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AwesomeTooltip-dummy.m"; sourceTree = "<group>"; };
-		B83D670A4F0056AB264F5439758BD816 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		A0D01C405E3D6A5B9ECCE0DF8CBAF600 /* AwesomeTooltip-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AwesomeTooltip-prefix.pch"; sourceTree = "<group>"; };
+		B5C281A29D60DB42B97CE75B206063DB /* Tooltip.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Tooltip.swift; sourceTree = "<group>"; };
+		B5E65657109439B4D29A27EFC6587D70 /* TooltipHitTestView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TooltipHitTestView.swift; sourceTree = "<group>"; };
+		B7F7F475B95C23BF966FDD24F2D0D493 /* AwesomeTooltip-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AwesomeTooltip-Info.plist"; sourceTree = "<group>"; };
 		B92E37979CD391A48EEE88BE20F1F73F /* Pods-AwesomeTooltip_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AwesomeTooltip_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		BB4D8D1CBC9633F5DA4415E4E18B8C1C /* AMPopTip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AMPopTip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C482EA372E25B2AEAE706366EEF0B9C3 /* AwesomeTooltip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AwesomeTooltip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C482EA372E25B2AEAE706366EEF0B9C3 /* AwesomeTooltip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AwesomeTooltip.framework; path = AwesomeTooltip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C532513FCD7363AE3771ED9506E5D194 /* TooltipConfiguring.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TooltipConfiguring.swift; path = AwesomeTooltip/Classes/TooltipConfiguring.swift; sourceTree = "<group>"; };
 		C6169FAB1D7DCF0F5F86C61B138E9394 /* Pods-AwesomeTooltip_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AwesomeTooltip_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C7305947C25B0D3D728D0CC90400C505 /* AMPopTip.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AMPopTip.modulemap; sourceTree = "<group>"; };
 		CA2639884B88B9DC5AC2BD0063403D99 /* AMPopTip-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMPopTip-umbrella.h"; sourceTree = "<group>"; };
 		D34A67707400407EB4CDB4AF6CB5D203 /* PopTip+Draw.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PopTip+Draw.swift"; path = "Source/PopTip+Draw.swift"; sourceTree = "<group>"; };
 		DB2E1C78AFB7345CEE36E5B31CDB8D1F /* PopTip+Transitions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PopTip+Transitions.swift"; path = "Source/PopTip+Transitions.swift"; sourceTree = "<group>"; };
-		EE485D61ABADDC125C12608DD035D393 /* AwesomeTooltip.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AwesomeTooltip.modulemap; sourceTree = "<group>"; };
 		EE88A046D9C5DCECAE6D7960C5E6F4AE /* Pods-AwesomeTooltip_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AwesomeTooltip_Tests.modulemap"; sourceTree = "<group>"; };
 		EEB3F663468A8840FA36379D374DD877 /* Pods-AwesomeTooltip_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AwesomeTooltip_Tests-dummy.m"; sourceTree = "<group>"; };
 		F1ACF272F403AE1D2B58369C1D4DB8B7 /* AMPopTip-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AMPopTip-dummy.m"; sourceTree = "<group>"; };
-		F63891AE7033B8754F4D4EA5A1886043 /* Pods_AwesomeTooltip_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AwesomeTooltip_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F63891AE7033B8754F4D4EA5A1886043 /* Pods_AwesomeTooltip_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AwesomeTooltip_Tests.framework; path = "Pods-AwesomeTooltip_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9A38A919EF37D7EFD081A711160A2FD /* Pods-AwesomeTooltip_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AwesomeTooltip_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		FB3ED382826E8D9B98375780945B5B69 /* TooltipViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TooltipViewController.swift; path = AwesomeTooltip/Classes/TooltipViewController.swift; sourceTree = "<group>"; };
-		FCF6F5725789CF049F1C77CB665599A6 /* TooltipHighlighting.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TooltipHighlighting.swift; path = AwesomeTooltip/Classes/TooltipHighlighting.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,20 +128,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		64A22EAA8466E2C96D05CD340FF51C61 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B979B312647B7300089F875CF4F972D9 /* AMPopTip.framework in Frameworks */,
-				F9A4834F21CECBE5A7776F95653DE9B4 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		7496AA0F9C0AFCFDB7C9AC94228777FD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				5559AADA8CD57A33CCB6516B670FEA8A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BB687A9B8DA5607D63B626E3CA2DFA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				934C89D06445DC95EB9EB334ACC176A9 /* AMPopTip.framework in Frameworks */,
+				61EF9B945C708C793FE9B3B0F27D9D13 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -156,14 +156,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2D4ECB99BD7C148F9AEAF99A45D8BAB5 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				852F2845B2F22FE63CFAFD7D7A3B88F5 /* AwesomeTooltip */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		367FCDCEB80CD2881000B6DDFBFC8147 /* AMPopTip */ = {
 			isa = PBXGroup;
 			children = (
@@ -172,6 +164,7 @@
 				DB2E1C78AFB7345CEE36E5B31CDB8D1F /* PopTip+Transitions.swift */,
 				51B4F2879942A06E014C14A33A31E730 /* Support Files */,
 			);
+			name = AMPopTip;
 			path = AMPopTip;
 			sourceTree = "<group>";
 		};
@@ -190,16 +183,6 @@
 			path = "../Target Support Files/AMPopTip";
 			sourceTree = "<group>";
 		};
-		541DC34FD93A79A6D1531DB1CDC9B321 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				74103EF3C56ECE1CAAA5194B3760534D /* AwesomeTooltip.podspec */,
-				B83D670A4F0056AB264F5439758BD816 /* LICENSE */,
-				7FFB1C2AEE6096ABCF821C846D06F817 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		58E893DA8DB60702D23D5611BA7B84B7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -207,6 +190,21 @@
 				763F2EB6FE040192D7AE234DA666C450 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		72446424AD860AB7A82E22FA31AC7E80 /* AwesomeTooltip */ = {
+			isa = PBXGroup;
+			children = (
+				C532513FCD7363AE3771ED9506E5D194 /* TooltipConfiguring.swift */,
+				46163C94003DB181CAB5B16D7E4AC915 /* TooltipHighlighting.swift */,
+				2C5A6A01FFC08AC7507E34D49EA05D70 /* TooltipIndicating.swift */,
+				64D48B7EA5E620C8CEE887CE8D5347DC /* TooltipViewController.swift */,
+				9864D446E8248592623CD1F6A643104B /* Pod */,
+				B04B75D5C05EE46B8394432B35056659 /* Support Files */,
+				D8D85DE59E6D5E6A7B73D587451F5460 /* Views */,
+			);
+			name = AwesomeTooltip;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		763F2EB6FE040192D7AE234DA666C450 /* iOS */ = {
@@ -228,21 +226,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		852F2845B2F22FE63CFAFD7D7A3B88F5 /* AwesomeTooltip */ = {
-			isa = PBXGroup;
-			children = (
-				AE28EFF7263D7AE900856A76 /* TooltipConfiguring.swift */,
-				AE28EFF6263D7AE900856A76 /* TooltipIndicating.swift */,
-				FB3ED382826E8D9B98375780945B5B69 /* TooltipViewController.swift */,
-				FCF6F5725789CF049F1C77CB665599A6 /* TooltipHighlighting.swift */,
-				AE28EFE3263D7A5B00856A76 /* Views */,
-				541DC34FD93A79A6D1531DB1CDC9B321 /* Pod */,
-				BCD02524E5E01DDCC24383B662F8997B /* Support Files */,
-			);
-			name = AwesomeTooltip;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		85C77AB3494966185E6FCACACEDD6890 /* Pods-AwesomeTooltip_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -258,6 +241,16 @@
 			);
 			name = "Pods-AwesomeTooltip_Example";
 			path = "Target Support Files/Pods-AwesomeTooltip_Example";
+			sourceTree = "<group>";
+		};
+		9864D446E8248592623CD1F6A643104B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				3310A38317C13325A9D799E6548E9E0A /* AwesomeTooltip.podspec */,
+				5A33D95633D739248379EDDF0EFBA8D6 /* LICENSE */,
+				17E17BF427EF654BDE88465C39385BA9 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		A65F3ABFD5DBE07919B6741BA13A2E5A /* Pods-AwesomeTooltip_Tests */ = {
@@ -276,28 +269,16 @@
 			path = "Target Support Files/Pods-AwesomeTooltip_Tests";
 			sourceTree = "<group>";
 		};
-		AE28EFE3263D7A5B00856A76 /* Views */ = {
+		B04B75D5C05EE46B8394432B35056659 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				AE28EFE4263D7A5B00856A76 /* TooltipHitTestView.swift */,
-				AE28EFE5263D7A5B00856A76 /* TooltipBackgroundView.swift */,
-				AE28EFE6263D7A5B00856A76 /* Tooltip.swift */,
-				AE28EFE7263D7A5B00856A76 /* UIView+Snapshot.swift */,
-			);
-			name = Views;
-			path = AwesomeTooltip/Classes/Views;
-			sourceTree = "<group>";
-		};
-		BCD02524E5E01DDCC24383B662F8997B /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				EE485D61ABADDC125C12608DD035D393 /* AwesomeTooltip.modulemap */,
-				AE936F823D46C4F58E8F2AB070E2EE79 /* AwesomeTooltip-dummy.m */,
-				740EB0ACE107C456C7AF960AD6E57C20 /* AwesomeTooltip-Info.plist */,
-				7AC7471722D37629B99AC6EDD8697667 /* AwesomeTooltip-prefix.pch */,
-				4EFF023073635E65E19A0824CAACFAAB /* AwesomeTooltip-umbrella.h */,
-				7D075EB9B4C3445B62320AB83CACC5BA /* AwesomeTooltip.debug.xcconfig */,
-				978278326EF6ECEB0A96796F8CB7F086 /* AwesomeTooltip.release.xcconfig */,
+				4847B328E4886A051D3921F38BC0F226 /* AwesomeTooltip.modulemap */,
+				5250D4470FFF1A34BC9960C798F38822 /* AwesomeTooltip-dummy.m */,
+				B7F7F475B95C23BF966FDD24F2D0D493 /* AwesomeTooltip-Info.plist */,
+				A0D01C405E3D6A5B9ECCE0DF8CBAF600 /* AwesomeTooltip-prefix.pch */,
+				2C69E24CB1A7F9F7D071370A791BE448 /* AwesomeTooltip-umbrella.h */,
+				5B66BCD0A5F12EE51B352032C7A17106 /* AwesomeTooltip.debug.xcconfig */,
+				561BD3E1F4621DF0816EF114E7ADDE72 /* AwesomeTooltip.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/AwesomeTooltip";
@@ -307,7 +288,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				2D4ECB99BD7C148F9AEAF99A45D8BAB5 /* Development Pods */,
+				E258FB5AF5BD8F224A7FC7B8F7CBAA85 /* Development Pods */,
 				58E893DA8DB60702D23D5611BA7B84B7 /* Frameworks */,
 				D3960C017DA518B4D25EB86AB2117A13 /* Pods */,
 				7CFFE691741B519183A7DEDDB7893CBB /* Products */,
@@ -321,6 +302,26 @@
 				367FCDCEB80CD2881000B6DDFBFC8147 /* AMPopTip */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		D8D85DE59E6D5E6A7B73D587451F5460 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B5C281A29D60DB42B97CE75B206063DB /* Tooltip.swift */,
+				33BBC30BEEDE7F63D524ADAD24D0406B /* TooltipBackgroundView.swift */,
+				B5E65657109439B4D29A27EFC6587D70 /* TooltipHitTestView.swift */,
+				30AD3E3DD7B0C33A9C6205A80C7A549D /* UIView+Snapshot.swift */,
+			);
+			name = Views;
+			path = AwesomeTooltip/Classes/Views;
+			sourceTree = "<group>";
+		};
+		E258FB5AF5BD8F224A7FC7B8F7CBAA85 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				72446424AD860AB7A82E22FA31AC7E80 /* AwesomeTooltip */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		F99B8CB37BB44B2714103EAFC40913BF /* Targets Support Files */ = {
@@ -359,11 +360,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FC6023F3108E8196EAE57176610130A6 /* Headers */ = {
+		5A8D29E813E2D9F7C65FD2B23AB0455D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C912E46811AC98F1A4A753A8AF532CB6 /* AwesomeTooltip-umbrella.h in Headers */,
+				A29ABDD59B76AC2D3901A8B55A3A8156 /* AwesomeTooltip-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,8 +401,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				38C16A544A1EE08D631449AB0B1BAB35 /* PBXTargetDependency */,
-				CD8CA5A69A4779CFEB4C3651CF09E5BD /* PBXTargetDependency */,
+				83397117D4CAE694FD9521D860A4CB93 /* PBXTargetDependency */,
+				2643089B3A6FA79354F457750DB847E3 /* PBXTargetDependency */,
 			);
 			name = "Pods-AwesomeTooltip_Example";
 			productName = "Pods-AwesomeTooltip_Example";
@@ -420,7 +421,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				45CCC5EEABABD4F2B74FBFC07177F99A /* PBXTargetDependency */,
+				571BA2F44F74622DB6D0422857FD602E /* PBXTargetDependency */,
 			);
 			name = "Pods-AwesomeTooltip_Tests";
 			productName = "Pods-AwesomeTooltip_Tests";
@@ -429,17 +430,17 @@
 		};
 		FD56E1D86998F7DEC850436BEFCD3B5F /* AwesomeTooltip */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BF0DBD6A1009D4F9FA977943AA289EAE /* Build configuration list for PBXNativeTarget "AwesomeTooltip" */;
+			buildConfigurationList = 53CD320F5E63C67C744951E18D54CA0C /* Build configuration list for PBXNativeTarget "AwesomeTooltip" */;
 			buildPhases = (
-				FC6023F3108E8196EAE57176610130A6 /* Headers */,
-				7DAFFE2A9BF01F97BF01051508F95E9D /* Sources */,
-				64A22EAA8466E2C96D05CD340FF51C61 /* Frameworks */,
-				5DE0B41337B1D352D5B7E3D94649BD36 /* Resources */,
+				5A8D29E813E2D9F7C65FD2B23AB0455D /* Headers */,
+				711DAFC9AF64E3D69120ABCAD3E0DA15 /* Sources */,
+				7BB687A9B8DA5607D63B626E3CA2DFA0 /* Frameworks */,
+				2ACB8AAA3DB7E05A04EEEE4E27BE8664 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				14BF480E8A67D7704880FA74EAEC1032 /* PBXTargetDependency */,
+				153E330FCD926DA57883B85919535641 /* PBXTargetDependency */,
 			);
 			name = AwesomeTooltip;
 			productName = AwesomeTooltip;
@@ -477,14 +478,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4D0FBE764F63D49C4492EED3F2537384 /* Resources */ = {
+		2ACB8AAA3DB7E05A04EEEE4E27BE8664 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5DE0B41337B1D352D5B7E3D94649BD36 /* Resources */ = {
+		4D0FBE764F63D49C4492EED3F2537384 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -527,19 +528,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7DAFFE2A9BF01F97BF01051508F95E9D /* Sources */ = {
+		711DAFC9AF64E3D69120ABCAD3E0DA15 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE28EFEA263D7A5B00856A76 /* TooltipHitTestView.swift in Sources */,
-				2266BAF2BE84941AEF10DFEC1D5E281C /* AwesomeTooltip-dummy.m in Sources */,
-				AE28EFF9263D7AE900856A76 /* TooltipConfiguring.swift in Sources */,
-				AE28EFED263D7A5B00856A76 /* UIView+Snapshot.swift in Sources */,
-				AE28EFEC263D7A5B00856A76 /* Tooltip.swift in Sources */,
-				D1B12804C675BD9B27AA0C8137252ADC /* TooltipViewController.swift in Sources */,
-				AE28EFEB263D7A5B00856A76 /* TooltipBackgroundView.swift in Sources */,
-				AA0ADFD30923211EDA253119E1FBA7B4 /* TooltipHighlighting.swift in Sources */,
-				AE28EFF8263D7AE900856A76 /* TooltipIndicating.swift in Sources */,
+				19E56166BFB33B032ACDF5192B192605 /* AwesomeTooltip-dummy.m in Sources */,
+				12AD4FE655409E290A56A9F9E3A0BE0F /* Tooltip.swift in Sources */,
+				3ACAEF261FF69AE04C7F663247920DD4 /* TooltipBackgroundView.swift in Sources */,
+				E51218C4F8988A5EDEBA3CEE8C6524EC /* TooltipConfiguring.swift in Sources */,
+				3C54CDE39B59FFD7FBB529FDE8D2BC91 /* TooltipHighlighting.swift in Sources */,
+				52F92A2EFD592BDFC4D227B9ABD16EB9 /* TooltipHitTestView.swift in Sources */,
+				2381B1589CFDFA93D9D455F0CDDA90CD /* TooltipIndicating.swift in Sources */,
+				B4426DA3541317406F0B7CD8DB28076A /* TooltipViewController.swift in Sources */,
+				09E64F40239C57C402C6FDB9CB75CD20 /* UIView+Snapshot.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -554,38 +555,196 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		14BF480E8A67D7704880FA74EAEC1032 /* PBXTargetDependency */ = {
+		153E330FCD926DA57883B85919535641 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AMPopTip;
 			target = 0B974B55B3C5F71E53DF6070DC0CF6CF /* AMPopTip */;
-			targetProxy = 1AECF589300001334E664700751DB895 /* PBXContainerItemProxy */;
+			targetProxy = A9C8E06743944D5556826B173875D4A9 /* PBXContainerItemProxy */;
 		};
-		38C16A544A1EE08D631449AB0B1BAB35 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = AMPopTip;
-			target = 0B974B55B3C5F71E53DF6070DC0CF6CF /* AMPopTip */;
-			targetProxy = 2FE9558729BAA64EA1E8B4F08B758EBD /* PBXContainerItemProxy */;
-		};
-		45CCC5EEABABD4F2B74FBFC07177F99A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-AwesomeTooltip_Example";
-			target = 8E51235495C27780DE1D02E9F9C6CEC8 /* Pods-AwesomeTooltip_Example */;
-			targetProxy = A70187DA181CF3CCDD14F4FBBCE40CD2 /* PBXContainerItemProxy */;
-		};
-		CD8CA5A69A4779CFEB4C3651CF09E5BD /* PBXTargetDependency */ = {
+		2643089B3A6FA79354F457750DB847E3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AwesomeTooltip;
 			target = FD56E1D86998F7DEC850436BEFCD3B5F /* AwesomeTooltip */;
-			targetProxy = AFE4A26A78D289C3B40154508BE5B816 /* PBXContainerItemProxy */;
+			targetProxy = CC318A6FBBAC413E8983826479E9ECE0 /* PBXContainerItemProxy */;
+		};
+		571BA2F44F74622DB6D0422857FD602E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-AwesomeTooltip_Example";
+			target = 8E51235495C27780DE1D02E9F9C6CEC8 /* Pods-AwesomeTooltip_Example */;
+			targetProxy = F748D4ABA00B67EA4B4D5F90CE7EF6A6 /* PBXContainerItemProxy */;
+		};
+		83397117D4CAE694FD9521D860A4CB93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AMPopTip;
+			target = 0B974B55B3C5F71E53DF6070DC0CF6CF /* AMPopTip */;
+			targetProxy = 66D147BACACB8362E9014D8A90CC69BB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1A76DEC68E0CFEB775F3A1BB01B2F7FA /* Release */ = {
+		281D8A5AFFAB98E1E421EE80D7DC01BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 010BE42C47BEEF7A76BAADBC563C5B30 /* Pods-AwesomeTooltip_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AwesomeTooltip_Example/Pods-AwesomeTooltip_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AwesomeTooltip_Example/Pods-AwesomeTooltip_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6D92B76E872675A60ACB88CE37D65D7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 147FD80B7EDB120CCF41D8FFFFA74252 /* AMPopTip.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AMPopTip/AMPopTip-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AMPopTip/AMPopTip-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AMPopTip/AMPopTip.modulemap";
+				PRODUCT_MODULE_NAME = AMPopTip;
+				PRODUCT_NAME = AMPopTip;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		8A3DBDE68E01E7DA10DB9558788B64A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B66BCD0A5F12EE51B352032C7A17106 /* AwesomeTooltip.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AwesomeTooltip/AwesomeTooltip-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AwesomeTooltip/AwesomeTooltip-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AwesomeTooltip/AwesomeTooltip.modulemap";
+				PRODUCT_MODULE_NAME = AwesomeTooltip;
+				PRODUCT_NAME = AwesomeTooltip;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9FAE9574B16FAA54FA79B1D3548C34C5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F9A38A919EF37D7EFD081A711160A2FD /* Pods-AwesomeTooltip_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -596,7 +755,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-AwesomeTooltip_Tests/Pods-AwesomeTooltip_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-AwesomeTooltip_Tests/Pods-AwesomeTooltip_Tests.modulemap";
@@ -614,7 +773,38 @@
 			};
 			name = Release;
 		};
-		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+		CEC1DA5F66BCDA49E18382A3B9A1964B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64CFDA21329FEEA6035C650EA931EE18 /* AMPopTip.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AMPopTip/AMPopTip-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AMPopTip/AMPopTip-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AMPopTip/AMPopTip.modulemap";
+				PRODUCT_MODULE_NAME = AMPopTip;
+				PRODUCT_NAME = AMPopTip;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -667,7 +857,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -680,43 +870,12 @@
 			};
 			name = Debug;
 		};
-		3265B4CD9D3188BC8AACDF82EFFAD284 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 978278326EF6ECEB0A96796F8CB7F086 /* AwesomeTooltip.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AwesomeTooltip/AwesomeTooltip-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AwesomeTooltip/AwesomeTooltip-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AwesomeTooltip/AwesomeTooltip.modulemap";
-				PRODUCT_MODULE_NAME = AwesomeTooltip;
-				PRODUCT_NAME = AwesomeTooltip;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		54EB41CD5CD7D1952565148B204E4BE7 /* Debug */ = {
+		EC407ACAE137F4EC88E63ED9A071FA4A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3282C211596FCD4672AAC0F698641DF2 /* Pods-AwesomeTooltip_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -727,7 +886,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-AwesomeTooltip_Tests/Pods-AwesomeTooltip_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-AwesomeTooltip_Tests/Pods-AwesomeTooltip_Tests.modulemap";
@@ -744,9 +903,9 @@
 			};
 			name = Debug;
 		};
-		67BCFE9CBD55522F1E14125A33AC07D8 /* Debug */ = {
+		ECE8A113D222438B110E78263ED0373D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7D075EB9B4C3445B62320AB83CACC5BA /* AwesomeTooltip.debug.xcconfig */;
+			baseConfigurationReference = 561BD3E1F4621DF0816EF114E7ADDE72 /* AwesomeTooltip.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -770,171 +929,18 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		6D92B76E872675A60ACB88CE37D65D7B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 147FD80B7EDB120CCF41D8FFFFA74252 /* AMPopTip.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AMPopTip/AMPopTip-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AMPopTip/AMPopTip-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AMPopTip/AMPopTip.modulemap";
-				PRODUCT_MODULE_NAME = AMPopTip;
-				PRODUCT_NAME = AMPopTip;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		AD797E23F6B60EF3E58AD8675FB3D786 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 010BE42C47BEEF7A76BAADBC563C5B30 /* Pods-AwesomeTooltip_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-AwesomeTooltip_Example/Pods-AwesomeTooltip_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AwesomeTooltip_Example/Pods-AwesomeTooltip_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 5.0;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		CEC1DA5F66BCDA49E18382A3B9A1964B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 64CFDA21329FEEA6035C650EA931EE18 /* AMPopTip.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AMPopTip/AMPopTip-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AMPopTip/AMPopTip-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AMPopTip/AMPopTip.modulemap";
-				PRODUCT_MODULE_NAME = AMPopTip;
-				PRODUCT_NAME = AMPopTip;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		F6DEBA0A0C2A8C6B496ECD8DBB4C4D6F /* Debug */ = {
+		F27B3E32CB744084C8CDA4B5C2D555EC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B92E37979CD391A48EEE88BE20F1F73F /* Pods-AwesomeTooltip_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -945,7 +951,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-AwesomeTooltip_Example/Pods-AwesomeTooltip_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-AwesomeTooltip_Example/Pods-AwesomeTooltip_Example.modulemap";
@@ -968,8 +974,8 @@
 		1B90D13CE39708F712F81DD33F24202F /* Build configuration list for PBXNativeTarget "Pods-AwesomeTooltip_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F6DEBA0A0C2A8C6B496ECD8DBB4C4D6F /* Debug */,
-				AD797E23F6B60EF3E58AD8675FB3D786 /* Release */,
+				F27B3E32CB744084C8CDA4B5C2D555EC /* Debug */,
+				281D8A5AFFAB98E1E421EE80D7DC01BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -977,8 +983,17 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
-				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53CD320F5E63C67C744951E18D54CA0C /* Build configuration list for PBXNativeTarget "AwesomeTooltip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A3DBDE68E01E7DA10DB9558788B64A6 /* Debug */,
+				ECE8A113D222438B110E78263ED0373D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -986,17 +1001,8 @@
 		87F053EA9564E3529BE5569D7E72612E /* Build configuration list for PBXNativeTarget "Pods-AwesomeTooltip_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				54EB41CD5CD7D1952565148B204E4BE7 /* Debug */,
-				1A76DEC68E0CFEB775F3A1BB01B2F7FA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BF0DBD6A1009D4F9FA977943AA289EAE /* Build configuration list for PBXNativeTarget "AwesomeTooltip" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				67BCFE9CBD55522F1E14125A33AC07D8 /* Debug */,
-				3265B4CD9D3188BC8AACDF82EFFAD284 /* Release */,
+				EC407ACAE137F4EC88E63ED9A071FA4A /* Debug */,
+				9FAE9574B16FAA54FA79B1D3548C34C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

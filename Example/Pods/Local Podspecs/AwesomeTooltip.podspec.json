@@ -21,7 +21,7 @@
   "source_files": "AwesomeTooltip/Classes/**/*",
   "dependencies": {
     "AMPopTip": [
-      "~> 3.3.0"
+      "3.3.0"
     ]
   }
 }

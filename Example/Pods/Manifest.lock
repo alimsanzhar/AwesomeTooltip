@@ -1,7 +1,7 @@
 PODS:
   - AMPopTip (3.3.0)
   - AwesomeTooltip (0.1.0):
-    - AMPopTip (~> 3.3.0)
+    - AMPopTip (= 3.3.0)
 
 DEPENDENCIES:
   - AMPopTip (~> 3.3.0)
@@ -17,8 +17,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AMPopTip: 45f3f87362d76abe59b971d35e33eff4e56ac2ad
-  AwesomeTooltip: 63fdf61c864b8833caaa9bcd2bf46b6d0ffcdc5a
+  AwesomeTooltip: bcb811019bf604c09f9646abdf4e43db020efa0b
 
-PODFILE CHECKSUM: cc868017b8b65e779a6019defc8a2f03d28fe6f6
+PODFILE CHECKSUM: b43d984c4a1590c60fead1e79a76e6d4674f9883
 
 COCOAPODS: 1.10.1
