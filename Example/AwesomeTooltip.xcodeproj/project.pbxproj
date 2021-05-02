@@ -15,6 +15,7 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		79C2DEEE54D0298B9188FAFD /* Pods_AwesomeTooltip_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD535FDD8C7E65998A0F1024 /* Pods_AwesomeTooltip_Example.framework */; };
+		AE28F01B263EA2F200856A76 /* TooltipConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE28F01A263EA2F200856A76 /* TooltipConfiguration.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		7B2DD113144FE9DF43E8986A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		9653D062B05B75DE93A4DBC7 /* Pods-AwesomeTooltip_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeTooltip_Tests.debug.xcconfig"; path = "Target Support Files/Pods-AwesomeTooltip_Tests/Pods-AwesomeTooltip_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		AD535FDD8C7E65998A0F1024 /* Pods_AwesomeTooltip_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AwesomeTooltip_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE28F01A263EA2F200856A76 /* TooltipConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TooltipConfiguration.swift; sourceTree = "<group>"; };
 		B3CB219EEE15DA46D9B5058B /* Pods-AwesomeTooltip_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeTooltip_Example.release.xcconfig"; path = "Target Support Files/Pods-AwesomeTooltip_Example/Pods-AwesomeTooltip_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B54705A73283CC3B31AF1BA9 /* Pods-AwesomeTooltip_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeTooltip_Tests.release.xcconfig"; path = "Target Support Files/Pods-AwesomeTooltip_Tests/Pods-AwesomeTooltip_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E075BF07F272C1285DAB1399 /* Pods_AwesomeTooltip_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AwesomeTooltip_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,6 +97,7 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				AE28F01A263EA2F200856A76 /* TooltipConfiguration.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -334,6 +337,7 @@
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				AE28F01B263EA2F200856A76 /* TooltipConfiguration.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -10,11 +10,13 @@ import UIKit
 import AwesomeTooltip
 
 class ViewController: UIViewController {
-
+    @IBOutlet var sampleButton: UIButton!
+    @IBOutlet var exampleButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-//        let viewController = TooltipViewController()
+//        let viewController = TooltipViewController(selectedViews: <#[UIView]#>, configuration: <#TooltipConfiguring#>, tooltipWasClosed: <#() -> Void#>)
     }
 }
 
