@@ -58,23 +58,17 @@ final class Tooltip {
     }
     
     func show(customView: UIView, in view: UIView, from sourceFrame: CGRect) {
-        configureHandlers()
+        configureHandler()
         popTip.show(customView: customView,
                     direction: PopTipDirection(direction: viewModel.direction),
                     in: view,
                     from: sourceFrame)
     }
     
-    private func configureHandlers() {
+    private func configureHandler() {
         if let tapHandler = viewModel.tapHandler {
             popTip.tapHandler = { _ in
                 tapHandler()
-            }
-        }
-        
-        if let dismissHandler = viewModel.dismissHandler {
-            popTip.dismissHandler = { _ in
-                dismissHandler()
             }
         }
     }

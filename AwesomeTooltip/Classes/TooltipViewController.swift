@@ -94,6 +94,10 @@ public final class TooltipViewController: UIViewController {
 
 extension TooltipViewController: TooltipHitTestViewDelegate {
     func tooltipHitTestViewDidTap(_ tooltipHitTestView: TooltipHitTestView) {
-        //
+        if !configuration.highlightingViewModel.isSelectable {
+            return
+        }
+        
+        dismiss(animated: false, completion: nil)
     }
 }

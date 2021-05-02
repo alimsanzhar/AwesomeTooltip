@@ -8,15 +8,17 @@
 import UIKit
 
 public protocol TooltipHighlighting {
-//    var buttonTitle: String { get }
-//    var message: String { get }
-//    var direction: String { get }
+    var isSelectable: Bool { get }
     var showRoundedBackground: Bool { get }
     var backgroundColor: UIColor { get }
     var backgroundViewInset: CGFloat { get }
 }
 
-extension TooltipHighlighting {
+public extension TooltipHighlighting {
+    var isSelectable: Bool {
+        true
+    }
+    
     var showRoundedBackground: Bool {
         true
     }

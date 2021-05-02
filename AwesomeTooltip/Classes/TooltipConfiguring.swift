@@ -7,7 +7,7 @@
 
 import Foundation
 
-protocol TooltipConfiguring {
+public protocol TooltipConfiguring {
     var customView: UIView { get }
     var highlightingViewModel: TooltipHighlighting { get }
     var indicatingViewModel: TooltipIndicating { get }
