@@ -13,7 +13,6 @@
 		1B80617BF1AA01E1388B24280EB04DDD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08DCECB841B79907B335AFC9C8E1992C /* Foundation.framework */; };
 		2381B1589CFDFA93D9D455F0CDDA90CD /* TooltipIndicating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5A6A01FFC08AC7507E34D49EA05D70 /* TooltipIndicating.swift */; };
 		32E11C68B7E380DAF57756919DFC2BB0 /* PopTip+Transitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2E1C78AFB7345CEE36E5B31CDB8D1F /* PopTip+Transitions.swift */; };
-		3ACAEF261FF69AE04C7F663247920DD4 /* TooltipBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BBC30BEEDE7F63D524ADAD24D0406B /* TooltipBackgroundView.swift */; };
 		3C54CDE39B59FFD7FBB529FDE8D2BC91 /* TooltipHighlighting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46163C94003DB181CAB5B16D7E4AC915 /* TooltipHighlighting.swift */; };
 		52F92A2EFD592BDFC4D227B9ABD16EB9 /* TooltipHitTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E65657109439B4D29A27EFC6587D70 /* TooltipHitTestView.swift */; };
 		5559AADA8CD57A33CCB6516B670FEA8A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08DCECB841B79907B335AFC9C8E1992C /* Foundation.framework */; };
@@ -80,7 +79,6 @@
 		30AD3E3DD7B0C33A9C6205A80C7A549D /* UIView+Snapshot.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIView+Snapshot.swift"; sourceTree = "<group>"; };
 		3282C211596FCD4672AAC0F698641DF2 /* Pods-AwesomeTooltip_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AwesomeTooltip_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3310A38317C13325A9D799E6548E9E0A /* AwesomeTooltip.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = AwesomeTooltip.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		33BBC30BEEDE7F63D524ADAD24D0406B /* TooltipBackgroundView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TooltipBackgroundView.swift; sourceTree = "<group>"; };
 		34FCBED32B6C05FB0667828AB6E82BD5 /* Pods-AwesomeTooltip_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AwesomeTooltip_Example-Info.plist"; sourceTree = "<group>"; };
 		3BC68DF588D91CA7419B9A8FCF2845C8 /* Pods-AwesomeTooltip_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AwesomeTooltip_Tests-Info.plist"; sourceTree = "<group>"; };
 		46163C94003DB181CAB5B16D7E4AC915 /* TooltipHighlighting.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TooltipHighlighting.swift; path = AwesomeTooltip/Classes/TooltipHighlighting.swift; sourceTree = "<group>"; };
@@ -321,7 +319,6 @@
 			isa = PBXGroup;
 			children = (
 				B5C281A29D60DB42B97CE75B206063DB /* Tooltip.swift */,
-				33BBC30BEEDE7F63D524ADAD24D0406B /* TooltipBackgroundView.swift */,
 				B5E65657109439B4D29A27EFC6587D70 /* TooltipHitTestView.swift */,
 				30AD3E3DD7B0C33A9C6205A80C7A549D /* UIView+Snapshot.swift */,
 			);
@@ -548,7 +545,6 @@
 			files = (
 				19E56166BFB33B032ACDF5192B192605 /* AwesomeTooltip-dummy.m in Sources */,
 				12AD4FE655409E290A56A9F9E3A0BE0F /* Tooltip.swift in Sources */,
-				3ACAEF261FF69AE04C7F663247920DD4 /* TooltipBackgroundView.swift in Sources */,
 				E51218C4F8988A5EDEBA3CEE8C6524EC /* TooltipConfiguring.swift in Sources */,
 				3C54CDE39B59FFD7FBB529FDE8D2BC91 /* TooltipHighlighting.swift in Sources */,
 				52F92A2EFD592BDFC4D227B9ABD16EB9 /* TooltipHitTestView.swift in Sources */,
