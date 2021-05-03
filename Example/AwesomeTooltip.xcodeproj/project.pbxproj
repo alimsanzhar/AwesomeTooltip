@@ -9,13 +9,15 @@
 /* Begin PBXBuildFile section */
 		3A521A8907E6C60ABF0E5805 /* Pods_AwesomeTooltip_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E075BF07F272C1285DAB1399 /* Pods_AwesomeTooltip_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
-		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
-		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		79C2DEEE54D0298B9188FAFD /* Pods_AwesomeTooltip_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD535FDD8C7E65998A0F1024 /* Pods_AwesomeTooltip_Example.framework */; };
 		AE28F01B263EA2F200856A76 /* TooltipConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE28F01A263EA2F200856A76 /* TooltipConfiguration.swift */; };
+		AE28F023263EAA6100856A76 /* TooltipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE28F022263EAA6100856A76 /* TooltipView.swift */; };
+		AE28F027263EABA300856A76 /* TooltipView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE28F026263EABA300856A76 /* TooltipView.xib */; };
+		AE28F02B263EB3F000856A76 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE28F02A263EB3F000856A76 /* MainViewController.xib */; };
+		AE28F03C263EB5F500856A76 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE28F03B263EB5F500856A76 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,8 +37,6 @@
 		607FACD01AFB9204008FA782 /* AwesomeTooltip_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AwesomeTooltip_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* AwesomeTooltip_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AwesomeTooltip_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,6 +46,10 @@
 		9653D062B05B75DE93A4DBC7 /* Pods-AwesomeTooltip_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeTooltip_Tests.debug.xcconfig"; path = "Target Support Files/Pods-AwesomeTooltip_Tests/Pods-AwesomeTooltip_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		AD535FDD8C7E65998A0F1024 /* Pods_AwesomeTooltip_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AwesomeTooltip_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE28F01A263EA2F200856A76 /* TooltipConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TooltipConfiguration.swift; sourceTree = "<group>"; };
+		AE28F022263EAA6100856A76 /* TooltipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TooltipView.swift; sourceTree = "<group>"; };
+		AE28F026263EABA300856A76 /* TooltipView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TooltipView.xib; sourceTree = "<group>"; };
+		AE28F02A263EB3F000856A76 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		AE28F03B263EB5F500856A76 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		B3CB219EEE15DA46D9B5058B /* Pods-AwesomeTooltip_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeTooltip_Example.release.xcconfig"; path = "Target Support Files/Pods-AwesomeTooltip_Example/Pods-AwesomeTooltip_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B54705A73283CC3B31AF1BA9 /* Pods-AwesomeTooltip_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeTooltip_Tests.release.xcconfig"; path = "Target Support Files/Pods-AwesomeTooltip_Tests/Pods-AwesomeTooltip_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E075BF07F272C1285DAB1399 /* Pods_AwesomeTooltip_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AwesomeTooltip_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -96,11 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				607FACD71AFB9204008FA782 /* ViewController.swift */,
-				AE28F01A263EA2F200856A76 /* TooltipConfiguration.swift */,
-				607FACD91AFB9204008FA782 /* Main.storyboard */,
-				607FACDC1AFB9204008FA782 /* Images.xcassets */,
-				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
+				AE28F020263EA92700856A76 /* Main */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
 			name = "Example for AwesomeTooltip";
@@ -110,6 +110,8 @@
 		607FACD31AFB9204008FA782 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				607FACDC1AFB9204008FA782 /* Images.xcassets */,
+				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD41AFB9204008FA782 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -160,6 +162,26 @@
 				E075BF07F272C1285DAB1399 /* Pods_AwesomeTooltip_Tests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE28F020263EA92700856A76 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				AE28F021263EA9AC00856A76 /* Views */,
+				AE28F02A263EB3F000856A76 /* MainViewController.xib */,
+				AE28F03B263EB5F500856A76 /* MainViewController.swift */,
+				AE28F01A263EA2F200856A76 /* TooltipConfiguration.swift */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		AE28F021263EA9AC00856A76 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AE28F022263EAA6100856A76 /* TooltipView.swift */,
+				AE28F026263EABA300856A76 /* TooltipView.xib */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,8 +270,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
+				AE28F02B263EB3F000856A76 /* MainViewController.xib in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
+				AE28F027263EABA300856A76 /* TooltipView.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -335,9 +358,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				AE28F023263EAA6100856A76 /* TooltipView.swift in Sources */,
 				AE28F01B263EA2F200856A76 /* TooltipConfiguration.swift in Sources */,
+				AE28F03C263EB5F500856A76 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,14 +384,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		607FACD91AFB9204008FA782 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				607FACDA1AFB9204008FA782 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		607FACDE1AFB9204008FA782 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (

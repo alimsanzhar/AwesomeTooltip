@@ -20,6 +20,10 @@ struct TooltipConfiguration: TooltipConfiguring {
     }
 }
 
-struct TooltipHighlighterViewModel: TooltipHighlighting {}
+struct TooltipHighlighterViewModel: TooltipHighlighting {
+    var showRoundedBackground: Bool = true
+}
 
-struct TooltipIndicatorViewModel: TooltipIndicating {}
+struct TooltipIndicatorViewModel: TooltipIndicating {
+    var offset: CGFloat = 8
+}

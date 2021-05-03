@@ -20,7 +20,7 @@ public extension TooltipHighlighting {
     }
     
     var showRoundedBackground: Bool {
-        true
+        false
     }
     
     var backgroundColor: UIColor {

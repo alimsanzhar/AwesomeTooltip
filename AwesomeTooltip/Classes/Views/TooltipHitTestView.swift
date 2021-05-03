@@ -19,11 +19,11 @@ final class TooltipHitTestView: UIView {
     /// - Parameters:
     ///   - targetView: View that has to receive a hit
     ///   - delegate: Delegate that processes the hit
-    init(targetView: UIView, delegate: TooltipHitTestViewDelegate?) {
+    init(frame: CGRect, targetView: UIView, delegate: TooltipHitTestViewDelegate?) {
         self.targetView = targetView
         self.delegate = delegate
         
-        super.init(frame: targetView.frame)
+        super.init(frame: frame)
     }
     
     required init?(coder: NSCoder) {

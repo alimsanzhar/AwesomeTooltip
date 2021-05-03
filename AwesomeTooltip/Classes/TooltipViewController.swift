@@ -17,21 +17,18 @@ public final class TooltipViewController: UIViewController {
     private let configuration: TooltipConfiguring
     private let highlightingViewModel: TooltipHighlighting
     private let tooltip: Tooltip
-    private let tooltipWasClosed: () -> Void
     
     /// - Parameters:
     ///   - selectedViews: Views to be highlighted
     ///   - configuration: Configuration to design tooltip
-    init(selectedViews: [UIView],
-         configuration: TooltipConfiguring,
-         tooltipWasClosed: @escaping () -> Void) {
+    public init(selectedViews: [UIView], configuration: TooltipConfiguring) {
         self.selectedViews = selectedViews
         self.configuration = configuration
         self.highlightingViewModel = configuration.highlightingViewModel
         self.tooltip = Tooltip(viewModel: configuration.indicatingViewModel)
-        self.tooltipWasClosed = tooltipWasClosed
         
-        super.init(nibName: nil, bundle: nil)
+        super.init(nibName: String(describing: TooltipViewController.self),
+                   bundle: AwesomeTooltipBundle.shared)
     }
     
     required init?(coder: NSCoder) {
@@ -46,26 +43,23 @@ public final class TooltipViewController: UIViewController {
     }
     
     private func configureSnapshots() {
-        snapshots = selectedViews.map { view in
+        snapshots = selectedViews.map {
             let snapshotImageView = UIImageView()
-            snapshotImageView.image = view.snapshot
-            snapshotImageView.frame = view.convert(view.bounds, to: self.view.superview)
+            snapshotImageView.image = $0.snapshot
+            snapshotImageView.frame = $0.convert($0.bounds, to: view.superview)
             
             return snapshotImageView
         }
     }
     
     private func setupSnapshotsDetails() {
-        snapshots.enumerated().forEach { index, view in
-            let hitTestView = TooltipHitTestView(targetView: selectedViews[index], delegate: self)
-            let backgroundView = TooltipBackgroundView(for: selectedViews[index],
-                                                       with: configuration.highlightingViewModel)
-            
-            backgroundViews.append(backgroundView)
-            
-            self.view.addSubview(view)
-            self.view.insertSubview(hitTestView, belowSubview: view)
-            self.view.insertSubview(backgroundView, belowSubview: hitTestView)
+        snapshots.enumerated().forEach { index, snapshotView in
+            let hitTestView = TooltipHitTestView(frame: snapshotView.frame,
+                                                 targetView: selectedViews[index],
+                                                 delegate: self)
+
+            view.addSubview(snapshotView)
+            view.insertSubview(hitTestView, belowSubview: snapshotView)
         }
     }
     
@@ -76,12 +70,12 @@ public final class TooltipViewController: UIViewController {
     }
     
     private func showTooltip() {
-        guard let backgroundView = backgroundViews.last else { return }
+        guard let snapshot = snapshots.last else { return }
         
-        tooltip.show(customView: configuration.customView, in: view, from: backgroundView.frame)
+        tooltip.show(customView: configuration.customView, in: view, from: snapshot.frame)
     }
     
-    func show() {
+    public func show() {
         modalTransitionStyle = .crossDissolve
         modalPresentationStyle = .overCurrentContext
         

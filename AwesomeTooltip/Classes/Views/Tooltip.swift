@@ -15,10 +15,22 @@ public enum TooltipDirection: Int {
     case right
 }
 
-final class Tooltip {
+final class Tooltip: NSObject {
     
-    private lazy var popTip: PopTip = {
-        let popTip = PopTip()
+    private lazy var popTip = PopTip()
+    
+    private let viewModel: TooltipIndicating
+    
+    init(viewModel: TooltipIndicating) {
+        self.viewModel = viewModel
+        
+        super.init()
+        
+        configureAppearance()
+    }
+    
+    private func configureAppearance() {
+        popTip.bubbleColor = .white
         popTip.shouldDismissOnTap = viewModel.shouldDismissOnTap
         popTip.edgeMargin = viewModel.edgeMargin
         popTip.edgeInsets = viewModel.edgeInsets
@@ -47,14 +59,6 @@ final class Tooltip {
                 })
         }
         popTip.exitAnimation = .fadeOut
-        
-        return popTip
-    }()
-    
-    private let viewModel: TooltipIndicating
-    
-    init(viewModel: TooltipIndicating) {
-        self.viewModel = viewModel
     }
     
     func show(customView: UIView, in view: UIView, from sourceFrame: CGRect) {
