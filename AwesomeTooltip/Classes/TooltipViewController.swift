@@ -15,8 +15,8 @@ public final class TooltipViewController: UIViewController {
     
     private let selectedViews: [UIView]
     private let configuration: TooltipConfiguring
-    private let highlightingViewModel: TooltipHighlighting
-    private let tooltip: Tooltip
+    private let highlightViewModel: TooltipHighlighting
+    private let tip: Tip
     
     /// - Parameters:
     ///   - selectedViews: Views to be highlighted
@@ -24,8 +24,8 @@ public final class TooltipViewController: UIViewController {
     public init(selectedViews: [UIView], configuration: TooltipConfiguring) {
         self.selectedViews = selectedViews
         self.configuration = configuration
-        self.highlightingViewModel = configuration.highlightingViewModel
-        self.tooltip = Tooltip(viewModel: configuration.indicatingViewModel)
+        self.highlightViewModel = configuration.highlightViewModel
+        self.tip = Tip(viewModel: configuration.indicatorViewModel)
         
         super.init(nibName: String(describing: TooltipViewController.self),
                    bundle: AwesomeTooltipBundle.shared)
@@ -72,7 +72,7 @@ public final class TooltipViewController: UIViewController {
     private func showTooltip() {
         guard let snapshot = snapshots.last else { return }
         
-        tooltip.show(customView: configuration.customView, in: view, from: snapshot.frame)
+        tip.show(customView: configuration.customView, in: view, from: snapshot.frame)
     }
     
     public func show() {
@@ -88,7 +88,7 @@ public final class TooltipViewController: UIViewController {
 
 extension TooltipViewController: TooltipHitTestViewDelegate {
     func tooltipHitTestViewDidTap(_ tooltipHitTestView: TooltipHitTestView) {
-        if !configuration.highlightingViewModel.isSelectable {
+        if !configuration.highlightViewModel.isSelectable {
             return
         }
         

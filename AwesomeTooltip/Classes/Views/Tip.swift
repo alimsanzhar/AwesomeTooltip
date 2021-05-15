@@ -1,5 +1,5 @@
 //
-//  Tooltip.swift
+//  Tip.swift
 //  AwesomeTooltip
 //
 //  Created by Санжар Алим on 01.05.2021.
@@ -15,7 +15,7 @@ public enum TooltipDirection: Int {
     case right
 }
 
-final class Tooltip: NSObject {
+final class Tip: NSObject {
     
     private lazy var popTip = PopTip()
     

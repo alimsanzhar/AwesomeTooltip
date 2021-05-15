@@ -12,15 +12,15 @@ import AwesomeTooltip
 struct TooltipConfiguration: TooltipConfiguring {
     var customView: UIView
     
-    var highlightingViewModel: TooltipHighlighting = TooltipHighlighterViewModel()
-    var indicatingViewModel: TooltipIndicating = TooltipIndicatorViewModel()
+    var highlightViewModel: TooltipHighlighting = TooltipHighlightViewModel()
+    var indicatorViewModel: TooltipIndicating = TooltipIndicatorViewModel()
     
     init(customView: UIView) {
         self.customView = customView
     }
 }
 
-struct TooltipHighlighterViewModel: TooltipHighlighting {
+struct TooltipHighlightViewModel: TooltipHighlighting {
     var showRoundedBackground: Bool = true
 }
 
