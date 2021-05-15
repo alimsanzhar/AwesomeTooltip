@@ -22,7 +22,6 @@ final class MainViewController: UIViewController {
     }
     
     @IBAction private func showButtonPressed(_ sender: UIButton) {
-        
         let tooltipView = TooltipView()
         tooltipView.delegate = self
         

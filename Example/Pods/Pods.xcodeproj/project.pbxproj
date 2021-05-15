@@ -26,7 +26,7 @@
 		9988F07712C399B5ABC0499E0EA440F7 /* Pods-AwesomeTooltip_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ABF61C04FB78059B48E2352D9CD2C22 /* Pods-AwesomeTooltip_Example-dummy.m */; };
 		A29ABDD59B76AC2D3901A8B55A3A8156 /* AwesomeTooltip-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C69E24CB1A7F9F7D071370A791BE448 /* AwesomeTooltip-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AE28F053263EDC8E00856A76 /* TooltipViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE28F052263EDC8E00856A76 /* TooltipViewController.xib */; };
-		AE28F060263EDF3C00856A76 /* AwesomeTooltipBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE28F05F263EDF3C00856A76 /* AwesomeTooltipBundle.swift */; };
+		AE6CD4A3264FD37900300905 /* AwesomeTooltipBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6CD4A2264FD37900300905 /* AwesomeTooltipBundle.swift */; };
 		B4426DA3541317406F0B7CD8DB28076A /* TooltipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D48B7EA5E620C8CEE887CE8D5347DC /* TooltipViewController.swift */; };
 		C93B205303F1B341CB68F17C04805802 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08DCECB841B79907B335AFC9C8E1992C /* Foundation.framework */; };
 		E51218C4F8988A5EDEBA3CEE8C6524EC /* TooltipConfiguring.swift in Sources */ = {isa = PBXBuildFile; fileRef = C532513FCD7363AE3771ED9506E5D194 /* TooltipConfiguring.swift */; };
@@ -101,7 +101,7 @@
 		A07A9F594DB954C41BDCF4675C057A66 /* Pods-AwesomeTooltip_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AwesomeTooltip_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A0D01C405E3D6A5B9ECCE0DF8CBAF600 /* AwesomeTooltip-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AwesomeTooltip-prefix.pch"; sourceTree = "<group>"; };
 		AE28F052263EDC8E00856A76 /* TooltipViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TooltipViewController.xib; path = AwesomeTooltip/Classes/TooltipViewController.xib; sourceTree = "<group>"; };
-		AE28F05F263EDF3C00856A76 /* AwesomeTooltipBundle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AwesomeTooltipBundle.swift; path = ../AwesomeTooltip/Bundle/AwesomeTooltipBundle.swift; sourceTree = "<group>"; };
+		AE6CD4A2264FD37900300905 /* AwesomeTooltipBundle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AwesomeTooltipBundle.swift; sourceTree = "<group>"; };
 		B5C281A29D60DB42B97CE75B206063DB /* Tip.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Tip.swift; sourceTree = "<group>"; };
 		B5E65657109439B4D29A27EFC6587D70 /* TooltipHitTestView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TooltipHitTestView.swift; sourceTree = "<group>"; };
 		B7F7F475B95C23BF966FDD24F2D0D493 /* AwesomeTooltip-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AwesomeTooltip-Info.plist"; sourceTree = "<group>"; };
@@ -196,7 +196,7 @@
 		72446424AD860AB7A82E22FA31AC7E80 /* AwesomeTooltip */ = {
 			isa = PBXGroup;
 			children = (
-				AE28F058263EDEB100856A76 /* Bundle */,
+				AE6CD4A1264FD37900300905 /* Bundle */,
 				AE28F052263EDC8E00856A76 /* TooltipViewController.xib */,
 				64D48B7EA5E620C8CEE887CE8D5347DC /* TooltipViewController.swift */,
 				C532513FCD7363AE3771ED9506E5D194 /* TooltipConfiguring.swift */,
@@ -272,12 +272,13 @@
 			path = "Target Support Files/Pods-AwesomeTooltip_Tests";
 			sourceTree = "<group>";
 		};
-		AE28F058263EDEB100856A76 /* Bundle */ = {
+		AE6CD4A1264FD37900300905 /* Bundle */ = {
 			isa = PBXGroup;
 			children = (
-				AE28F05F263EDF3C00856A76 /* AwesomeTooltipBundle.swift */,
+				AE6CD4A2264FD37900300905 /* AwesomeTooltipBundle.swift */,
 			);
-			path = Bundle;
+			name = Bundle;
+			path = AwesomeTooltip/Classes/Bundle;
 			sourceTree = "<group>";
 		};
 		B04B75D5C05EE46B8394432B35056659 /* Support Files */ = {
@@ -549,9 +550,9 @@
 				3C54CDE39B59FFD7FBB529FDE8D2BC91 /* TooltipHighlighting.swift in Sources */,
 				52F92A2EFD592BDFC4D227B9ABD16EB9 /* TooltipHitTestView.swift in Sources */,
 				2381B1589CFDFA93D9D455F0CDDA90CD /* TooltipIndicating.swift in Sources */,
-				AE28F060263EDF3C00856A76 /* AwesomeTooltipBundle.swift in Sources */,
 				B4426DA3541317406F0B7CD8DB28076A /* TooltipViewController.swift in Sources */,
 				09E64F40239C57C402C6FDB9CB75CD20 /* UIView+Snapshot.swift in Sources */,
+				AE6CD4A3264FD37900300905 /* AwesomeTooltipBundle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

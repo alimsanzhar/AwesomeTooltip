@@ -9,16 +9,12 @@
 Pod::Spec.new do |s|
   s.name             = 'AwesomeTooltip'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of AwesomeTooltip.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  s.summary          = 'Animated popover view controller tooltip, nice feature for tips and onboarding purposes.'
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+                        Animated highlightable tooltip view controller. There is an option to specify which views
+                        to highlight and how tooltip should look like. Custom view can be used as a tip view.
+                        Also, tooltip can be set up in various ways configuring direction, size and etc.
                        DESC
 
   s.homepage         = 'https://github.com/alimsanzhar/AwesomeTooltip'
@@ -31,12 +27,11 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'AwesomeTooltip/Classes/**/*'
+  s.swift_version = '4.0'
   
-   s.resource_bundles = {
-     'AwesomeTooltip' => ['AwesomeTooltip/**/*.xib']
-   }
+  s.resource_bundles = {
+    'AwesomeTooltip' => ['AwesomeTooltip/**/*.xib']
+  }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-   s.dependency 'AMPopTip', '3.3.0'
+  s.dependency 'AMPopTip', '3.3.0'
 end
