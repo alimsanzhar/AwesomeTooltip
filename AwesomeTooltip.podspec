@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'AwesomeTooltip'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'Animated popover view controller tooltip, nice feature for tips and onboarding purposes.'
   s.description      = <<-DESC
                         Animated highlightable tooltip view controller. There is an option to specify which views
